@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Vdf-1G-1jV">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller One-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewControllerOne" id="BYZ-38-t0r" customClass="ViewControllerOne" customModule="SplashWelcome" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Fna-po-guw">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Fna-po-guw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Cbc-NQ-84F"/>
+                            <constraint firstItem="Fna-po-guw" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="CsD-vm-GPU"/>
+                            <constraint firstItem="Fna-po-guw" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="H3y-JQ-Z2y"/>
+                            <constraint firstItem="Fna-po-guw" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="I9f-5J-ssY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-650.39999999999998" y="140.77961019490255"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="OLk-n8-PL0">
+            <objects>
+                <viewController storyboardIdentifier="PageViewController" id="Vdf-1G-1jV" customClass="PageViewController" customModule="SplashWelcome" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8z3-Wd-eny">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Ic9-eF-JWg"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yua-W8-mIR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1358" y="140"/>
+        </scene>
+        <!--View Controller Two-->
+        <scene sceneID="Brz-TZ-K1U">
+            <objects>
+                <viewController storyboardIdentifier="ViewControllerTwo" id="tMJ-jQ-R9L" customClass="ViewControllerTwo" customModule="SplashWelcome" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hUu-Gx-bK8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Aqx-eA-Qmd">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Aqx-eA-Qmd" firstAttribute="bottom" secondItem="B77-Kl-X6n" secondAttribute="bottom" id="1DT-in-XNk"/>
+                            <constraint firstItem="Aqx-eA-Qmd" firstAttribute="top" secondItem="hUu-Gx-bK8" secondAttribute="top" id="2hN-BN-aOR"/>
+                            <constraint firstItem="Aqx-eA-Qmd" firstAttribute="bottom" secondItem="B77-Kl-X6n" secondAttribute="bottom" id="A8a-3g-W9P"/>
+                            <constraint firstItem="Aqx-eA-Qmd" firstAttribute="top" secondItem="hUu-Gx-bK8" secondAttribute="top" id="ACT-j7-03i"/>
+                            <constraint firstItem="Aqx-eA-Qmd" firstAttribute="leading" secondItem="B77-Kl-X6n" secondAttribute="leading" id="Oo0-11-OIh"/>
+                            <constraint firstItem="Aqx-eA-Qmd" firstAttribute="trailing" secondItem="B77-Kl-X6n" secondAttribute="trailing" id="TFc-o7-1Gn"/>
+                            <constraint firstAttribute="trailing" secondItem="Aqx-eA-Qmd" secondAttribute="trailing" id="VkQ-YK-Zeu"/>
+                            <constraint firstItem="Aqx-eA-Qmd" firstAttribute="trailing" secondItem="B77-Kl-X6n" secondAttribute="trailing" id="fSU-XB-3pC"/>
+                            <constraint firstItem="Aqx-eA-Qmd" firstAttribute="leading" secondItem="hUu-Gx-bK8" secondAttribute="leading" id="k1P-oQ-D7T"/>
+                            <constraint firstItem="Aqx-eA-Qmd" firstAttribute="bottom" secondItem="B77-Kl-X6n" secondAttribute="bottom" id="pDf-zL-DZK"/>
+                            <constraint firstItem="Aqx-eA-Qmd" firstAttribute="top" secondItem="hUu-Gx-bK8" secondAttribute="top" id="soB-nv-wdw"/>
+                            <constraint firstItem="Aqx-eA-Qmd" firstAttribute="leading" secondItem="B77-Kl-X6n" secondAttribute="leading" id="zTt-C2-x9d"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="B77-Kl-X6n"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T0S-Nt-ao1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="60" y="140"/>
+        </scene>
+        <!--View Controller Three-->
+        <scene sceneID="d5Y-X2-PPo">
+            <objects>
+                <viewController storyboardIdentifier="ViewControllerThree" id="2ET-kr-Ugc" customClass="ViewControllerThree" customModule="SplashWelcome" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6LU-2l-d6J">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash3.png" translatesAutoresizingMaskIntoConstraints="NO" id="3sF-gz-glj">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3sF-gz-glj" firstAttribute="trailing" secondItem="qVb-ax-Rzv" secondAttribute="trailing" id="Jd1-2W-PMW"/>
+                            <constraint firstItem="3sF-gz-glj" firstAttribute="leading" secondItem="qVb-ax-Rzv" secondAttribute="leading" id="U7Q-zS-T3C"/>
+                            <constraint firstItem="3sF-gz-glj" firstAttribute="top" secondItem="6LU-2l-d6J" secondAttribute="top" id="WPB-X4-JD2"/>
+                            <constraint firstItem="3sF-gz-glj" firstAttribute="bottom" secondItem="qVb-ax-Rzv" secondAttribute="bottom" id="idh-mb-T66"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qVb-ax-Rzv"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UdL-Lw-XsN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="767" y="140"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Splash1.png" width="614" height="1078"/>
+        <image name="Splash2.png" width="610" height="1080"/>
+        <image name="Splash3.png" width="614" height="1084"/>
+    </resources>
+</document>
